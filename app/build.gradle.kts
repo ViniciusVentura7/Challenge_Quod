@@ -46,6 +46,7 @@ dependencies {
     implementation (libs.androidx.core.ktx.v1100)
     implementation (libs.androidx.constraintlayout)
     implementation (libs.androidx.appcompat)
+    implementation (libs.material)
     implementation (libs.androidx.cardview)
     implementation (libs.androidx.recyclerview)
     implementation(libs.androidx.core.ktx)

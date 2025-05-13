@@ -11,7 +11,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_margin="50dp"/>
+        android:layout_marginTop="16dp"
+        />
 
     <Button
         android:id="@+id/btnCaptureDocument"
@@ -21,5 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivDocument"
-        app:layout_constraintTop_margin="30dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
