@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputCpfScore"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="CPF"
+        android:padding="12dp" />
+
+
+    <Button
+        android:id="@+id/btnConsultarScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Score"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/resultadoScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
